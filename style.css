@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Borel-Regular";
+  src: url(fonts/Borel-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +18,7 @@ body {
   padding: 0;
   background-image: url("img/bg.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
 }
 
@@ -44,6 +49,7 @@ body {
 .header > h2 {
   text-align: center;
   font-family: "Lucida Handwriting";
+  /* font-weight: 400; */
   font-style: cursive;
   word-spacing: 1rem;
 }
@@ -101,6 +107,10 @@ body {
   padding: 0.5rem 2rem 0.5rem 2rem;
   min-width: 20%;
   text-align: center;
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .paragraph-title {
@@ -124,7 +134,9 @@ body {
 }
 
 .gif > img {
+  border: 1px solid red;
   border-radius: 3rem;
+  box-shadow: -1px 4px 9px #171c1f;
 }
 
 footer {
@@ -180,6 +192,7 @@ footer {
     display: grid;
     place-items: center;
     max-height: 30svh;
+    max-width: 30svw;
   }
 
   .disclaimer {
