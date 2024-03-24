@@ -135,7 +135,7 @@ body {
 
 .gif > img {
   border: 1px solid red;
-  border-radius: 3rem;
+  border-radius: 50%;
   box-shadow: -1px 4px 9px #171c1f;
 }
 
@@ -165,6 +165,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100svw;
+    max-height: 100%;
+  }
+
   .header {
     /* Change max-width to 90% for mobile */
     max-width: 90%;
@@ -188,11 +193,16 @@ footer {
     margin-top: 1rem;
   }
 
-  .gif > img {
+  .gif {
     display: grid;
     place-items: center;
-    height: 60%;
-    width: 60%;
+    /* place-content: center; */
+  }
+
+  .gif > img {
+    border-radius: 50%;
+    height: 100%;
+    width: 80%;
   }
 
   .disclaimer {
