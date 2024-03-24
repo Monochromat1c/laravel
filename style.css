@@ -180,11 +180,11 @@ footer {
   }
 
   .body-wrapper {
-    max-width: 90%;
+    min-width: 90%;
   }
 
   .body-content {
-    max-width: 90%;
+    min-width: 90%;
     margin: 0 auto;
   }
 
