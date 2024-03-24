@@ -185,6 +185,7 @@ footer {
 
   .body-content {
     max-width: 90%;
+    margin: 0 auto;
   }
 
   .like-content {
